@@ -13,8 +13,8 @@ async function enviarDatos(nombre, apellido, nac) {
 		},
 	});
 	if (response.ok) {
-		const jsonData = await response.json();
-		console.log(jsonData);
+		const Datos = await response.json();
+		console.log(Datos);
 	}
 }
 enviar.addEventListener("click", function () {
