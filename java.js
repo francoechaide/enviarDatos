@@ -15,6 +15,8 @@ async function enviarDatos(nombre, apellido, nac) {
 	if (response.ok) {
 		const Datos = await response.json();
 		console.log(Datos);
+
+		document.getElementById("datos").innerHTML = `<p>${Datos.nombre} ${Datos.apellido} ${Datos.nac} </p> `;
 	}
 }
 enviar.addEventListener("click", function () {
