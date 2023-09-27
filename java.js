@@ -18,6 +18,9 @@ let enviar = document.getElementById("enviar");
 		document.getElementById("datos").innerHTML = `<p>${Datos.nombre} ${Datos.apellido} ${Datos.nac} </p> `;
 	}
 }*/
+
+/*peticion con try catch para capturar error de ser nesesario */
+
 /*async function enviarDatos(nombre, apellido, nac) {
 	try {
 		const persona = { nombre, apellido, nac };
@@ -40,6 +43,8 @@ let enviar = document.getElementById("enviar");
 		console.error(error); // Imprimir el mensaje de error real
 	}
 }*/
+
+/*fetch sincronico */
 /*function enviarDatos(nombre, apellido, nac) {
 	const persona = { nombre, apellido, nac }; //creo el objeto persona con sus datos
 
